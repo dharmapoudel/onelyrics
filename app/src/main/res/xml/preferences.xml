@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/app_settings_title">
+
+        <!--<Preference
+            android:key="appStart"
+            android:title="@string/app_start"
+            android:defaultValue="true"
+            android:summary="@string/app_stop_summary" />-->
+
+        <Preference
+            android:id="@+id/appThemes"
+            android:defaultValue="1"
+            android:key="appThemes"
+            android:summary="@string/app_theme_summary"
+            android:title="@string/app_theme_title" />
+
+        <!--<Preference
+            android:id="@+id/appThemeFree"
+            android:key="appThemeFree"
+            android:title="@string/app_theme_title"
+            android:summary="@string/app_theme_summary" />-->
+
+        <Preference
+            android:key="appIntro"
+            android:title="@string/app_intro"
+            android:summary="@string/app_intro_summary" />
+
+        <Preference
+            android:key="appFAQ"
+            android:title="@string/faq_title"
+            android:summary="@string/faq_summary" />
+
+        <!--<SwitchPreference
+            android:id="@+id/excludeYoutube"
+            android:defaultValue="false"
+            android:key="excludeYoutube"
+            android:summary="@string/exclude_youtube_summary"
+            android:title="@string/exclude_youtube" />-->
+
+        <Preference
+            android:id="@+id/excludeApps"
+            android:key="excludeApps"
+            android:title="@string/exclude_apps"
+            android:summary="@string/exclude_apps_description"
+             />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_auto_close_panel"
+            android:summary="@string/auto_close_panel_summary"
+            android:title="@string/auto_close_panel" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/cache_settings_title">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="cacheLyrics"
+            android:summary="@string/cache_lyrics_summary"
+            android:title="@string/cache_lyrics_title" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="cacheAlbumArt"
+            android:summary="@string/cache_album_art_summary"
+            android:title="@string/cache_album_art_title" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="highlightOfflineSong"
+            android:summary="@string/highlight_offline_song_summary"
+            android:title="@string/highlight_offline_song_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/trigger_settings_title">
+
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/triggerPos"
+            android:entryValues="@array/triggerPosValues"
+            android:key="triggerPos"
+            android:summary="%s"
+            android:title="@string/trigger_pos_title" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/triggerSwipeDirection"
+            android:entryValues="@array/triggerSwipeDirectionValues"
+            android:key="swipeDirection"
+            android:summary="%s"
+            android:title="@string/trigger_swipe_direction_title" />
+
+        <SeekBarPreference
+            android:id="@+id/triggerOffset"
+            android:defaultValue="52"
+            android:key="triggerOffset"
+            android:summary="52"
+            android:title="@string/trigger_offset_summary"
+            />
+
+        <SeekBarPreference
+            android:id="@+id/triggerWidth"
+            android:defaultValue="0"
+            android:key="triggerWidth"
+            android:summary="0"
+            android:title="@string/trigger_width_summary"/>
+
+        <SeekBarPreference
+            android:id="@+id/triggerHeight"
+            android:defaultValue="82"
+            android:key="triggerHeight"
+            android:summary="82"
+            android:title="@string/trigger_height_summary"
+            />
+
+        <SeekBarPreference
+            android:id="@+id/triggerAlpha"
+            android:defaultValue="22"
+            android:key="triggerAlpha"
+            android:summary="22"
+            android:title="@string/trigger_alpha_summary"/>
+
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="triggerVibration"
+            android:summary="@string/trigger_vibration_summary"
+            android:title="@string/trigger_vibration_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/lyrics_panel_settings_title">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_force_screen_on"
+            android:summary="@string/force_screen_on_summary"
+            android:title="@string/force_screen_on" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_close_on_back_press"
+            android:summary="@string/close_on_back_press_summary"
+            android:title="@string/close_on_back_press" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="panelBlur"
+            android:summary="@string/blur_panel_summary"
+            android:title="@string/blur_panel" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="panelHead"
+            android:summary="@string/panel_head_summary"
+            android:title="@string/panel_head" />
+
+        <SeekBarPreference
+            android:id="@+id/panelHeight"
+            android:defaultValue="48"
+            android:key="panelHeight"
+            android:title="@string/lyrics_panel_height_summary"
+            android:summary="48"/>
+
+        <SeekBarPreference
+            android:id="@+id/panelAlpha"
+            android:defaultValue="88"
+            android:key="panelAlpha"
+            android:title="@string/lyrics_panel_alpha_summary"
+            android:summary="88"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

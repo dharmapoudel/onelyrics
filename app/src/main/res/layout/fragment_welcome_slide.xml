@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.github.dreierf.materialintroscreen.parallax.ParallaxLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:fontFamily="@font/roboto"
+    android:padding="@dimen/mi_baseline">
+
+
+    <ImageView
+        android:id="@+id/mi_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mi_baseline"
+        android:layout_weight="3"
+        android:contentDescription="@string/app_name"
+        android:gravity="center"
+        android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/mi_title"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/mi_baseline"
+            android:layout_marginTop="@dimen/mi_baseline"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:id="@+id/mi_description"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_marginBottom="@dimen/mi_baseline"
+        android:layout_marginTop="@dimen/mi_baseline"
+        android:layout_weight="1"
+        android:gravity="top|center"
+        android:fontFamily="@font/roboto"
+        android:lineSpacingExtra="3dp"
+        android:text="@string/welcome_to_one_lyrics"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+</io.github.dreierf.materialintroscreen.parallax.ParallaxLinearLayout>

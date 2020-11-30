@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="triggerPos">
+        <item>Left</item>
+        <item>Right</item>
+    </string-array>
+
+    <string-array name="triggerPosValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+    <string-array name="triggerSwipeDirection">
+        <item>Up</item>
+        <item>Down</item>
+        <item>Left</item>
+        <item>Right</item>
+    </string-array>
+
+    <string-array name="triggerSwipeDirectionValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="themeName">
+        <item>Default</item>
+        <item>Dark</item>
+        <item>Black</item>
+        <item>Super Dark</item>
+        <item>Pitch Black</item>
+    </string-array>
+
+    <string-array name="themeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!--<string-array name="themeNameDonate">
+        <item>Default</item>
+    </string-array>-->
+
+    <!--<string-array name="themeValuesDonate">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>-->
+
+    <string-array name="sortEntries">
+        <item>Date Added</item>
+        <item>Artist Name</item>
+        <item>Track Name</item>
+    </string-array>
+
+    <string-array name="sortValues">
+        <item>DATE</item>
+        <item>ARTIST</item>
+        <item>TRACK</item>
+    </string-array>
+
+</resources>

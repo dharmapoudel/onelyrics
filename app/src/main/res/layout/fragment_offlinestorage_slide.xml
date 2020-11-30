@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.github.dreierf.materialintroscreen.parallax.ParallaxLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:fontFamily="@font/roboto"
+    android:padding="@dimen/mi_baseline">
+
+    <ImageView
+        android:id="@+id/mi_image"
+        android:layout_weight="3.8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mi_baseline"
+        android:contentDescription="@string/app_name"
+        android:gravity="center"
+        android:fontFamily="@font/roboto"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/mi_title"
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mi_baseline"
+        android:layout_marginTop="@dimen/mi_baseline"
+        android:gravity="center"
+        android:text="@string/save_offline"
+        android:fontFamily="@font/roboto"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:id="@+id/mi_description"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mi_baseline"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="top|center"
+        android:fontFamily="@font/roboto"
+        android:lineSpacingExtra="3dp"
+        android:text="@string/save_offline_instruction"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+
+    <Button
+        android:id="@+id/button_storage"
+        android:text="@string/read_write_storage"
+        android:layout_weight="0.4"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:padding="6dp"
+        android:backgroundTint="@color/oneLyricsWhite"
+        android:textColor="@color/colorPrimary"
+        />
+
+
+</io.github.dreierf.materialintroscreen.parallax.ParallaxLinearLayout>

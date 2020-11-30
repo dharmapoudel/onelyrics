@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/activityBackground"
+    >
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:layout_marginBottom="50dp"
+        android:scrollbars="vertical"
+        android:fontFamily="@font/roboto"
+        />
+
+
+
+    <TextView
+        android:id="@+id/emptyListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="50dp"
+        android:text="@string/no_lyrics"
+        android:textColor="?primaryText"
+        android:fontFamily="@font/roboto"
+        android:textSize="16sp"
+        android:lineSpacingExtra="6dp"
+        android:visibility="gone"
+        />
+    <pl.bclogic.pulsator4droid.library.PulsatorLayout
+        android:visibility="gone"
+        android:id="@+id/pulsator"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="84dp"
+        android:background="@drawable/bg_circle"
+        android:elevation="6dp"
+        app:pulse_color="@color/colorAccent"
+        app:pulse_count="4"
+        app:pulse_duration="3000"
+        app:pulse_interpolator="Linear"
+        app:pulse_repeat="0"
+        app:pulse_startFromScratch="true">
+
+        <ImageButton
+            android:id="@+id/fabButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="12dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/music" />
+
+    </pl.bclogic.pulsator4droid.library.PulsatorLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="?bottomNavBg"
+        app:itemTextColor="@color/oneLyricsAlmostWhite"
+        app:menu="@menu/navigation_items"
+        android:fontFamily="@font/roboto"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<resources>
+
+
+    <string-array name="triggerPos">
+        <item>Links</item>
+        <item>Rechts</item>
+    </string-array>
+
+
+    <string-array name="triggerSwipeDirection">
+        <item>Oben</item>
+        <item>Unten</item>
+        <item>Links</item>
+        <item>Rechts</item>
+    </string-array>
+
+
+    <string-array name="themeName">
+        <item>Standard</item>
+        <item>Dunkel</item>
+        <item>Schwarz</item>
+        <item>Super Dunkel</item>
+        <item>Pitch Schwarz</item>
+    </string-array>
+
+
+    <string-array name="sortEntries">
+        <item>Datum hinzugefügt</item>
+        <item>Künstlername</item>
+        <item>Titelname</item>
+    </string-array>
+
+    <string-array name="sortValues">
+        <item>DATUM</item>
+        <item>KÜNSTLER</item>
+        <item>TITEL</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,145 @@
+<resources>
+    <string name="menu_settings">Setări</string>
+    <string name="menu_sort">Sortare</string>
+    <string name="menu_support_develop">Susține dezvoltarea</string>
+    <string name="sort_reverse">Invers</string>
+    <string name="app_start">Pornește/Oprește aplicația</string>
+    <string name="app_start_summary">aplicația este pornită</string>
+    <string name="app_stop_summary">aplicația este oprită</string>
+
+    <string name="thank_you">Mulțumim pentru susținere!!</string>
+    <string name="next_time">Apreciem efortul. Data viitoare poate!</string>
+
+    <string name="downloadingLyrics">SE DESCARCĂ</string>
+    <string name="lyricsDownloaded">Versui descărcate</string>
+    <string name="noLyricsFound">Nu s-au găsit versuri</string>
+    <string name="default_notification_channel_id">1lyrics_Canal</string>
+    <string name="app_running">1lyrics este pornită</string>
+
+
+    <string name="chooser_title">Alege o aplicație</string>
+
+    <string name="noti_channel_first">Primar</string>
+    <string name="noti_channel_second">Secundar</string>
+
+
+    <string name="download">Descarcă</string>
+    <string name="downloadHelp">Versuri descărcate pentru utilizare offline</string>
+
+
+    <string name="add_lyrics">Adaugă versuri</string>
+    <string name="refreshHelp">Reîmprospătează lista de versuri</string>
+
+
+    <string name="source">Sursă</string>
+    <string name="sourceHelp">Vezi codul sursă pentru aplicație</string>
+
+
+    <string name="about">Alte aplicații</string>
+    <string name="aboutHelp">Verifică celelalte aplicații ale mele</string>
+    <string name="lyricsHint">Versurile vor apărea aici</string>
+    <string name="updateTitle">Actualizare disponibila</string>
+    <string name="updateText">Apasă pentru a actualiza</string>
+
+    <string name="draw_over_other_apps">TRAGEȚI DEASUPRA ALTOR APLICAȚII</string>
+    <string name="read_write_storage">CITEȘTE / SCRIE MEMORIE</string>
+    <string name="read_notification_access">ACCES CITIRE NOTIFICĂRI</string>
+    <string name="permissions_toast">1lyrics - Vă rugăm să acordați permisiunile corespunzătoare </string>
+    <string name="permissions_needed">Permisele necesare</string>
+
+    <string name="download_prompt">Descarcă versuri pentru  %1$s piese?</string>
+    <string name="yes">Da</string>
+    <string name="no">Nu</string>
+    <string name="understood">Înțeles</string>
+    <string name="please_wait">Te rog așteptată…</string>
+    <string name="coming_soon">În curând!</string>
+    <string name="lyrics_downloaded_summary">Versuri descărcate </string>
+    <string name="lyrics_downloaded">Apasă aici pentru a vedea versurile descărcate</string>
+    <string name="reading_offline"> Citire offline </string>
+
+    
+    <string name="trigger_settings_title">Setări de declanșare</string>
+    <string name="trigger_pos_summary">Poziția zonei care detectează glisarea</string>
+    <string name="trigger_pos_title">Poziția de declanșare</string>
+    <string name="trigger_offset_summary">Înălțimea declanșării</string>
+    <string name="trigger_swipe_direction_summary">Direcția în care glisați pentru a vedea versurile</string>
+    <string name="trigger_swipe_direction_title">Direcția de glisare</string>
+    <string name="trigger_width_summary">Lățimea declanșatorului</string>
+    <string name="trigger_height_summary">Înălțimea declanșatorului</string>
+    <string name="trigger_alpha_summary">Vizibilitatea declanșatorului</string>
+    <string name="trigger_vibration_summary">Activați sau dezactivați vibrațiile la detectarea declanșatorului</string>
+    <string name="trigger_vibration_title">Vibrare</string>
+    <string name="lyrics_panel_settings_title">Setări de panouri pentru versuri</string>
+    <string name="lyrics_panel_height_summary">Înălțimea panoului pentru versuri</string>
+    <string name="lyrics_panel_alpha_summary">Vizibilitatea panoului pentru versuri</string>
+    <string name="cache_settings_title">Caching</string>
+    <string name="cache_lyrics_summary">Cache toate versurile prezentate de 1lyrics</string>
+    <string name="cache_lyrics_title">Cache versuri</string>
+    <string name="cache_album_art_summary">Cache toate artele albumului afișate de 1lyrics</string>
+    <string name="highlight_offline_song_summary">Evidențiați versurile melodiilor offline (necesită repornire)</string>
+    <string name="cache_album_art_title">Cache arta albumului</string>
+    <string name="highlight_offline_song_title">Evidențiază verusi</string>
+    <string name="no_lyrics">Nu există versuri disponibile încă! Redați mai întâi muzică sau descărcați lot.</string>
+    <string name="artist">Artist</string>
+    <string name="song_title">Titlul piesei</string>
+    <string name="music_paused">Muzica a fost pusă pe pauză</string>
+    <string name="default_notification_content_text">Apăsați lung și dezactivați canalul principal pentru a ascunde</string>
+    <string name="app_theme_summary">Selectează tema aplicației</string>
+    <string name="app_theme_title">Teme</string>
+    <string name="dark_mode_summary">Activați modul întunecat</string>
+    <string name="dark_mode_title">Mod întunecat</string>
+
+    <string name="app_settings_title">Setări aplicație</string>
+
+
+    <string name="lrc_label">Eticheta versurilor</string>
+    <string name="drag_handle">trageți mânerul</string>
+
+    <string name="app_intro">Introducerea aplicației</string>
+    <string name="app_intro_summary">Accesați ecranul introducerii aplicației</string>
+    <string name="welcome_to_one_lyrics">Bine ați venit la 1lyrics, o aplicație frumoasă și ușoară, pentru a aduce instantaneu versuri de calitate în timp ce ascultați muzică.</string>
+    <string name="swipe_trigger_handle_instruction">Glisați mânerul declanșatorului spre stânga (implicit) pentru a dezvălui panoul cu versuri..</string>
+    <string name="swipe_trigger_handle">Glisați mânerul de declanșare</string>
+    <string name="works_with_all_apps_instruction">Funcționează cu toate playerele muzicale, inclusiv Spotify, Muzică Google Play, Muzică Amazon și playere muzicale offline.</string>
+    <string name="works_with_all_apps">Funcționează cu toate</string>
+    <string name="save_offline">Salvează offline</string>
+    <string name="save_offline_instruction">Toate versurile sunt stocate offline pentru viitor, salvând datele prețioase.</string>
+    <string name="overlay_lyrics">Accesează verusi de oriunde </string>
+    <string name="overlay_lyrics_instruction">Glisați mânerul declanșatorului de oriunde pentru a afișa versuri pe fereastra suprapusă.</string>
+    <string name="provide_all_permissions"> Vă rugăm furnizați toate permisiunile necesare.</string>
+    <string name="error_message">Furnizați permisiunile necesare.</string>
+    <string name="blur_panel">Încețoșează panoului</string>
+    <string name="blur_panel_summary">Folosește arta albumului blurată ca panou de fundal</string>
+    <string name="panel_head">Ascundeți capul panoului</string>
+    <string name="panel_head_summary">Ascundeți titlul piesei din panou</string>
+    <string name="delete">ȘTERGE</string>
+    <string name="edit">EDITEAZĂ</string>
+
+    <string name="notice">Versurile pe această aplicație sunt furnizate de Chartlyrics, Ovhlyrics etc. și această aplicație va funcționa atâta timp cât ei funcționează. Deși sunt liberi, sunt protejați prin drepturi de autor pentru proprietarii lor respectați. Utilizați-l în mod responsabil, astfel încât toată lumea să se poată bucura. Dacă vă place, un review va ajuta, și raportați erori!</string>
+    <string name="notice1">
+        <b>Cum funcționează această aplicație?</b>\n<i>Deschideți aplicația, acordați toate permisiunile necesare și redați melodia folosind orice player de muzică, în cazul în care playerul muzical este acceptat și se găsesc versuri, aplicația va trimite o notificare (poate fi apăsată) și poate afișa o filă pe margine (poate fi derulată).</i>\n\n
+        <b>Versurile nu sunt disponibile??</b>\n<i>Nu toate melodiile vor avea versuri, motivul pentru care aplicația este gratuită, folosind furnizorii de versuri liber disponibili precum chartlyris, ovhlyrics, etc.</i>\n\n
+        <b>Verusrile nu sunt corecte?</b>\n<i>Aplicația trimite doar solicitarea furnizorilor de melodii folosind numele artistului și titlul melodiei și afișează versurile pe care le primește ca răspuns.</i>\n\n
+        <b>Nu funcționează cu player-ul x?</b>\n<i>Toate playerele de muzică sunt suportate atâta timp cât acestea trimit metadate adecvate, dacă nu merg, nu este vina aplicației 1lyrics, din păcate nu pot face nimic, contactați dezvoltatorul aplicației și cereți-i să urmeze standard și să trimită metadate adecvate.</i>\n\n
+        <b>Limba mea nu este suportată?</b>\n<i>Fonturile de aplicații sunt disponibile pe forumul xda, trimite-mi traducerile și le voi adăuga. De asemenea, îți voi da credite atunci când construiesc secțiunea.</i>\n\n
+        <b>Vreau opțiunea de partajare?</b>\n<i>Versurile sunt protejate de drepturi de autor pentru proprietarii originali, așa că nu voi adăuga nici o opțiune referitoare la asta.</i>\n\n
+        <b>Aplicația nu funcționează?</b>\n<i>Mai întâi, amintiți-vă că aplicația este gratuită și că lucrez în nenumărate ore pentru a o aduce. O recenzie urâtă nu va ajuta. Vă rugăm să raportați cu detalii (dispozitiv, os, artist, melodie, music player, logcat, etc), astfel încât să pot identifica problema și să lucrez la un remediu.</i>\n\n
+        <b>Cum se trimite o cerere de caracteristică??</b>\n<i>Trimite-mi un e-mail, îmi place să adaug caracteristici, atâta timp cât se potrivesc cu tematica simplă și minimă a aplicațiilor.</i>\n\n\n
+        <b>Sunt mulțumit de aplicație, cum pot să ajut?</b>\n<i>O puteți ajuta prin evaluarea aplicației. Dacă îmi apreciați munca, puteți oricând să donați pe Paypal <b><font color="#f5148c46">dharmapoudel1@gmail.com</font></b>, acest lucru va ajuta, de asemenea, să păstreze aplicația fără anunțuri. </i>\n\n
+    </string>
+
+    <string name="faq_title">Frecvente</string>
+    <string name="quick_faq"><b>Întrebări frecvente</b></string>
+    <string name="translators"><b>Translation</b></string>
+    <string name="translators_content">
+        <i>Italian - Giovanni Andreotti</i>\n
+        <i>German - pieceofphil</i>\n
+        <i>Romanian - Darius Mnere</i>\n
+        <i>Spanish - Agustín Mayorga</i>\n
+        <i>Portuguese - Victor Hugo</i>\n
+        <i>Vietnamese - Hàn Phong</i>\n
+    </string>
+    <string name="force_screen_on_summary">Force screen on when lyrics is displayed</string>
+    <string name="force_screen_on">Keep screen on</string>
+
+</resources>

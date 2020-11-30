@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="triggerPos">
+        <item>Izquierda</item>
+        <item>Derecha</item>
+    </string-array>
+
+    <string-array name="triggerSwipeDirection">
+        <item>Arriba</item>
+        <item>Abajo</item>
+        <item>Izquierda</item>
+        <item>Derecha</item>
+    </string-array>
+
+    <string-array name="themeName">
+        <item>Por defecto</item>
+        <item>Oscuro</item>
+        <item>Negro</item>
+        <item>Super Oscuro</item>
+        <item>Pitch Negro</item>
+    </string-array>
+
+    <string-array name="sortEntries">
+        <item>Fecha en que se agregó</item>
+        <item>Nombre del artista</item>
+        <item>Nombre de la pista</item>
+    </string-array>
+
+    <string-array name="sortValues">
+        <item>FECHA</item>
+        <item>ARTISTA</item>
+        <item>PISTA</item>
+    </string-array>
+
+</resources>

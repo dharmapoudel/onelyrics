@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <!--<item
+        android:id="@+id/action_git"
+        android:enabled="true"
+        android:icon="@drawable/github_white"
+        android:title="@string/source"
+        />-->
+
+    <item
+        android:id="@+id/action_add"
+        android:enabled="true"
+        android:icon="@drawable/add_white"
+        android:title="@string/add_lyrics"
+        />
+
+    <item
+        android:id="@+id/action_download"
+        android:enabled="true"
+        android:icon="@drawable/download_white"
+        android:title="@string/download" />
+
+    <item
+        android:id="@+id/action_refresh"
+        android:enabled="true"
+        android:icon="@drawable/settings_icon"
+        android:title="@string/menu_settings" />
+
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="triggerPos">
+        <item>Stânga</item>
+        <item>Dreapta</item>
+    </string-array>
+
+    <string-array name="triggerSwipeDirection">
+        <item>Sus</item>
+        <item>Jos</item>
+        <item>Stânga</item>
+        <item>Dreapta</item>
+    </string-array>
+
+    <string-array name="themeName">
+        <item>Implicit</item>
+        <item>Întunecat</item>
+        <item>Negru</item>
+        <item>Foarte întunecat</item>
+        <item>Negru beznă</item>
+    </string-array>
+
+    <string-array name="sortEntries">
+        <item>Data adăugării</item>
+        <item>Numele artistului</item>
+        <item>Numele piesei</item>
+    </string-array>
+
+    <string-array name="sortValues">
+        <item>DATA</item>
+        <item>ARTIST</item>
+        <item>PIESĂ</item>
+    </string-array>
+
+</resources>

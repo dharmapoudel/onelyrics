@@ -1,0 +1,155 @@
+<resources>
+    <string name="menu_settings">Impostazioni</string>
+    <string name="menu_sort">Ordina</string>
+    <string name="sort_reverse">Inverti</string>
+    <string name="app_start">Avvia/Ferma la app</string>
+    <string name="app_start_summary">L\'app è in esecuzione</string>
+    <string name="app_stop_summary">L\'app non è in esecuzione</string>
+
+    <string name="downloadingLyrics">Scaricando i testi</string>
+    <string name="lyricsDownloaded">Testi scaricati</string>
+    <string name="noLyricsFound">Nessun testo trovato</string>
+    <string name="default_notification_channel_id">Canale di 1lyrics</string>
+    <string name="app_running">1lyrics è in esecuzione</string>
+
+
+    <string name="chooser_title">Scegli una app</string>
+
+    <string name="noti_channel_first">Primario</string>
+    <string name="noti_channel_second">Secondario</string>
+
+
+    <string name="download">Scarica</string>
+    <string name="downloadHelp">Scarica testi per usarli anche offline</string>
+
+
+    <string name="add_lyrics">Aggiungi testi</string>
+    <string name="refreshHelp">Aggiorna la lista dei testi</string>
+
+
+    <string name="source">Fonte</string>
+    <string name="sourceHelp">Vedi il codice sorgente della app</string>
+
+
+    <string name="about">Altre applicazioni</string>
+    <string name="aboutHelp">Dai un\'occhiata alle mie altre applicazioni</string>
+    <string name="lyricsHint">I tuoi testi appariranno qui</string>
+    <string name="updateTitle">Aggiornamento disponibile</string>
+    <string name="updateText">Clicca qui per aggiornare</string>
+
+    <string name="draw_over_other_apps">DISEGNA SOPRA LE ALTRE APP</string>
+    <string name="read_write_storage">LEGGI/SCRIVI NELL\'ARCHIVIO</string>
+    <string name="read_notification_access">ACCEDI ALLE NOTIFICHE</string>
+    <string name="permissions_toast">1lyrics - Per favore concedi le autorizzazioni necessarie</string>
+    <string name="permissions_needed">Permessi necessari</string>
+
+    <string name="download_prompt">Scaricare testi per %1$s canzoni?</string>
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+    <string name="understood">Ricevuto</string>
+    <string name="please_wait">Attendi&#8230;</string>
+    <string name="coming_soon">Coming soon!</string>
+    <string name="lyrics_downloaded_summary">Testi scaricati</string>
+    <string name="lyrics_downloaded">Clicca qui per vedere i testi scaricati</string>
+    <string name="reading_offline">Leggi offline </string>
+
+    
+    <string name="trigger_settings_title">Impostazioni interruttore</string>
+    <string name="trigger_pos_summary">La posizione dell\'area da trascinare</string>
+    <string name="trigger_pos_title">Posizione interritre</string>
+    <string name="trigger_offset_summary">Offset interruttore</string>
+    <string name="trigger_swipe_direction_summary">Dove trascinare l\'interruttore per visualizzare i testi</string>
+    <string name="trigger_swipe_direction_title">Direzione di attivazione</string>
+    <string name="trigger_width_summary">Larghezza interruttore</string>
+    <string name="trigger_height_summary">Altezza interruttore</string>
+    <string name="trigger_alpha_summary">Trasparenza interruttore</string>
+    <string name="trigger_vibration_summary">Abilità la vibrazione dell\'interruttore</string>
+    <string name="trigger_vibration_title">Vibrazione</string>
+    <string name="lyrics_panel_settings_title">Impostazioni pannello testi</string>
+    <string name="lyrics_panel_height_summary">Altezza pannello rtesti</string>
+    <string name="lyrics_panel_alpha_summary">Trasparenza pennello testi</string>
+    <string name="cache_settings_title">Caching</string>
+    <string name="cache_lyrics_summary">Salva tutti i testi su 1lyrics</string>
+    <string name="cache_lyrics_title">Salva testi</string>
+    <string name="cache_album_art_summary">Salva le copertine degli album su 1lyrics</string>
+    <string name="highlight_offline_song_summary">Evidenzia temi locali (necessità di un riavvio della app)</string>
+    <string name="cache_album_art_title">Salva le copertine degli album</string>
+    <string name="highlight_offline_song_title">Evidenzia temi locali</string>
+    <string name="no_lyrics">Nessun testo disponibile al momento. Riproduci un po\' di musica o usa la funzione di download di massa.</string>
+    <string name="artist">Artist</string>
+    <string name="song_title">Song Title</string>
+    <string name="music_paused">Music paused</string>
+    <string name="default_notification_content_text">Long press and disable primary channel to hide</string>
+    <string name="app_theme_summary">Seleziona il tema per la app</string>
+    <string name="app_theme_title">Tema</string>
+    <string name="dark_mode_summary">Attiva il tema scuro</string>
+    <string name="dark_mode_title">Tema scuro</string>
+
+    <string name="app_settings_title">Impostazioni app</string>
+
+
+    <string name="lrc_label">Etichetta testi</string>
+    <string name="drag_handle">Icona</string>
+
+    <string name="app_intro">Introduzione app</string>
+    <string name="app_intro_summary">Vai alla schermata di introduzione</string>
+    <string name="welcome_to_one_lyrics">Benvenuto in 1 lyrics, una bella e leggera app per trovare all\'istante i testi della canzone che stai ascoltando</string>
+    <string name="swipe_trigger_handle_instruction">Trascina l\'icona di attivazione a sinistra per visualizzare il pannello dei testi</string>
+    <string name="swipe_trigger_handle">Icona di attivazione</string>
+    <string name="works_with_all_apps_instruction">Funziona con tutte le app di musica, compresi Spotify, Google play music, amazon music e tutti i riproduttori locali</string>
+    <string name="works_with_all_apps">Works with all</string>
+    <string name="save_offline">Salva in locale</string>
+    <string name="save_offline_instruction">Tutti i testi sono salvati in locale risparmiando connessione dati</string>
+    <string name="overlay_lyrics">Vedi i testi ovunque</string>
+    <string name="overlay_lyrics_instruction">Trascina la maniglia da qualsiasi posizione per visualizzare i testi sovrapposti alle altre app.</string>
+    <string name="provide_all_permissions">Per favore concedi i permessi necessari</string>
+    <string name="error_message">Per favore concedi i permessi necessari</string>
+    <string name="blur_panel">Trasparenza pannello</string>
+    <string name="blur_panel_summary">Use blurred album art as panel background</string>
+    <string name="panel_head">Nascondi titolo</string>
+    <string name="panel_head_summary">Nasconde la parte alta del pannello con il titolo</string>
+    <string name="delete">ELIMINA</string>
+    <string name="edit">MODIFICA</string>
+
+    <string name="menu_support_develop">Supporta lo sviluppot</string>
+    <string name="exclude_youtube_summary">Non cercare i testi per YouTube</string>
+    <string name="exclude_youtube">Esclude YouTube</string>
+    <string name="thank_you">Grazie per il supporto!</string>
+    <string name="next_time">Grazie comunque. Magari la prossima volta!</string>
+
+    <string name="notice">I testi su questa app sono forniti da Chartlyrics, Ovhlyrics, ecc, questa app funzionerà finché funzioneranno tali servizi. Sebbene siano gratuiti, sono protetti da copyright dai rispettivi proprietari. Usa l\'app in modo responsabile, in modo che tutti possano divertirsi. Se ti piace,una recensione positiva aiuterà, altrimenti segnala i problemi che trovi!</string>
+    <string name="notice1">
+        <b>Come funziona la app?</b>\n
+        <i>Apri la app, concedi i permessi necessari e avvia una canzone con qualunque lettore, se riconosciuta l\'app mostrerà una notifica o un interruttore.</i>\n\n
+        <b>Testi non corretti?</b>\n
+        <i>Non tutte le canzoni hanno testi. L\'app è gratis poiché utilizza servizi gratuiti come chartlyris, ovhlyrics, etc.</i>\n\n
+        <b>Testi non corretti?</b>\n
+        <i>Non dipende dalla app. Ciò che fa è mandare una richiesta ai siti di testi con artista e titolo della canzone e visualizzare la risposta.</i>\n\n
+        <b>Non funziona con il lettore xyz?</b>\n
+        <i>Tutti i lettori che utilizzano nel modo corretto i metadata (proprietà dei file), se non lo fanno 1lyrics non può farci niente. Contatta gli sviluppatori del tuo lettore.</i>\n\n
+        <b>Non vedo la mia lingua?</b>\n
+        <i>Mandami una mail per poter accedere al servizio che permette la traduzione. Ti aggiungerò fra i ringraziamenti.</i>\n\n
+        <b>Dov\'è il tasto condividi?</b>\n
+        <i>I testi sono protetti da copyright, pertanto non aggiungerò tale opzione</i>\n\n
+        <b>App just doesn\'t work?</b>\n
+        <i>First, remember the app is free and I\'m working countless hours to bring it to you. A salty review won\'t help. Please report with details (device, os, artist, song, music player, logcat, etc) so that I can pinpoint the issue and work on a fix.</i>\n\n
+        <b>Come posso richiedere una nuova funzione?</b>\n
+        <i>Mandami una mail, sono disposto ad aggiungere funzioni purché in linea con il funzionamento semplice e lo stile minimale della app.</i>\n\n
+        <b>L\'app mi piace, come posso aiutare?</b>\n
+        <i>Puoi aiutare con una recensione positiva. Se apprezzi molto il mio lavoro puoi anche effettuare una donazione tramite PayPal <b><font color="#f5148c46">dharmapoudel1@gmail.com</font></b>, aiuterai anche a mantenere l\'app libera da pubblicità</i>\n\n
+    </string>
+    <string name="faq_title">Frequenti</string>
+    <string name="quick_faq"><b>Domande frequenti</b></string>
+    <string name="translators"><b>Traduzioni</b></string>
+    <string name="translators_content">
+        <i>Italiano - Giovanni Andreotti</i>\n
+        <i>Tedesco - pieceofphil</i>\n
+        <i>Rumeno - Darius Mnere</i>\n
+        <i>Spagnolo - Agustín Mayorga</i>\n
+        <i>Portoghese - Victor Hugo</i>\n
+        <i>Vietnamese - Hàn Phong</i>\n
+    </string>
+    <string name="force_screen_on_summary">Force screen on when lyrics is displayed</string>
+    <string name="force_screen_on">Keep screen on</string>
+
+</resources>

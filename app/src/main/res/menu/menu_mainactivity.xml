@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/searchLyrics"
+        android:icon="@drawable/search_icon"
+        android:title="@string/search_lyrics"
+        android:visible="false"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+    <item
+        android:id="@+id/menuSort"
+        android:icon="@drawable/sort_icon"
+        android:title="@string/menu_sort"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menuSupportDev"
+        android:icon="@drawable/support_dev"
+        android:title="@string/menu_support_develop"
+        app:showAsAction="ifRoom"/>
+
+    <!--<item
+        android:icon="@drawable/faq_icon"
+        app:showAsAction="collapseActionView"
+        android:id="@+id/menuFaq"
+        android:title="@string/faq_title"/>-->
+
+
+
+
+    <!--<item
+        android:icon="@drawable/more_icon"
+        app:showAsAction="collapseActionView"
+        android:id="@+id/menuSettings"
+        android:visible="false"
+        android:title="@string/menu_settings"/>-->
+
+</menu>

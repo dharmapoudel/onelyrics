@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+    android:clickable="false"
+    app:cardElevation="0dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="0dp">
+
+        <RelativeLayout
+            android:id="@+id/view_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent">
+
+            <ImageView
+                android:id="@+id/delete_icon"
+                android:layout_width="@dimen/mi_baseline"
+                android:layout_height="@dimen/mi_baseline"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/mi_baseline"
+                android:contentDescription="@string/delete"
+                android:src="@drawable/delete_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:layout_toStartOf="@id/delete_icon"
+                android:text="@string/delete"
+                android:textColor="?appBackground"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/view_foreground"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:paddingBottom="6dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="6dp"
+            android:background="?appBackground">
+
+            <ImageView
+                android:id="@+id/albumArt"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="@dimen/mi_baseline"
+                android:contentDescription="@string/song_title"
+                android:padding="0dp" />
+
+            <TextView
+                android:id="@+id/track"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/artist"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@id/albumArt"
+                android:gravity="bottom|start"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="@string/song_title"
+                android:textColor="?primaryText"
+                android:fontFamily="@font/roboto"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/artist"
+                android:layout_width="fill_parent"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="1dp"
+                android:layout_toEndOf="@id/albumArt"
+                android:gravity="top|start"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+
+                android:text="@string/artist"
+                android:textColor="?secondaryText"
+                android:fontFamily="@font/roboto"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="?listDivider" />
+</androidx.cardview.widget.CardView>

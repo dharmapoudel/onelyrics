@@ -1,0 +1,113 @@
+<resources>
+    <string name="menu_settings">"Einstellungen"</string>
+    <string name="menu_sort">"Sortieren"</string>
+    <string name="sort_reverse">"Umkehren"</string>
+    <string name="app_start">"App starten/anhalten"</string>
+    <string name="app_start_summary">"App läuft"</string>
+    <string name="app_stop_summary">"App wurde gestoppt"</string>
+
+    <string name="downloadingLyrics">"Wird heruntergeladen"</string>
+    <string name="lyricsDownloaded">"Liedtexte heruntergeladen"</string>
+    <string name="noLyricsFound">"Keine Liedtexte gefunden"</string>
+    <string name="default_notification_channel_id">"Benachrichtigungskanal"</string>
+    <string name="app_running">"1lyrics läuft"</string>
+
+
+    <string name="chooser_title">"Wähle eine App aus"</string>
+
+    <string name="noti_channel_first">"Primär"</string>
+    <string name="noti_channel_second">"Sekundär"</string>
+
+
+    <string name="download">"Herunterladen"</string>
+    <string name="downloadHelp">"Lade den Liedtext zur Offline-Nutzung herunter"</string>
+
+
+    <string name="add_lyrics">"Füge eigene Liedtexte hinzu"</string>
+    <string name="refreshHelp">"Aktualisiere die Liedtextliste"</string>
+
+
+    <string name="source">"Quelle"</string>
+    <string name="sourceHelp">"Zeigt den Quellcode für diese App an"</string>
+
+
+    <string name="about">"Weitere Apps"</string>
+    <string name="aboutHelp">"Schau meine anderen Apps an"</string>
+    <string name="lyricsHint">"Eigene Liedtexte werden hier erscheinen"</string>
+    <string name="updateTitle">"Update verfügbar"</string>
+    <string name="updateText">"Klicke hier, um zu aktualisieren"</string>
+
+    <string name="draw_over_other_apps">"ALS OVERLAY ÜBER ANDERE APPS ANZEIGEN"</string>
+    <string name="read_write_storage">"LESEN / SCHREIBEN SPEICHERZUGRIFF"</string>
+    <string name="read_notification_access">"BENACHRICHTIGUNGSZUGRIFF"</string>
+    <string name="permissions_toast">"1lyrics - Bitte gewähre die entsprechenden Berechtigungen"</string>
+    <string name="permissions_needed">"Zugriffsberechtigungen benötigt"</string>
+
+    <string name="download_prompt">"Liedtext für %1$s Lieder herunterladen?"</string>
+    <string name="yes">"Ja"</string>
+    <string name="no">"Nein"</string>
+    <string name="please_wait">"Einen Moment…"</string>
+    <string name="coming_soon">"Demnächst!"</string>
+    <string name="lyrics_downloaded_summary">"Liedtexte heruntergeladen "</string>
+    <string name="lyrics_downloaded">"Klicke hier, um heruntergeladene Liedtexte anzuzeigen"</string>
+    <string name="reading_offline">" Offline anzeigen "</string>
+
+    
+    <string name="trigger_settings_title">"Auslöser Einstellungen"</string>
+    <string name="trigger_pos_summary">"Die Position des Bereichs, der den Wischvorgang erkennt"</string>
+    <string name="trigger_pos_title">"Auslöserposition"</string>
+    <string name="trigger_offset_summary">"Auslöserversatz"</string>
+    <string name="trigger_swipe_direction_summary">"Die Richtung, in die gewischt wird, um den Liedtext anzuzeigen"</string>
+    <string name="trigger_swipe_direction_title">"Wischrichtung"</string>
+    <string name="trigger_width_summary">"Auslöserbreite"</string>
+    <string name="trigger_height_summary">"Auslöserhöhe"</string>
+    <string name="trigger_alpha_summary">"Auslösersichtbarkeit"</string>
+    <string name="trigger_vibration_summary">"Aktivieren oder deaktivieren Sie die Vibration bei der Auslösererkennung"</string>
+    <string name="trigger_vibration_title">"Vibration"</string>
+    <string name="lyrics_panel_settings_title">"Liedtextpanel Anzeigeeinstellungen"</string>
+    <string name="lyrics_panel_height_summary">"Liedtextpanel Höhe"</string>
+    <string name="lyrics_panel_alpha_summary">"Liedtextpanel Sichtbarkeit"</string>
+    <string name="cache_settings_title">"Zwischenspeichern"</string>
+    <string name="cache_lyrics_summary">"Speichere alle Texte von 1lyrics zwischen"</string>
+    <string name="cache_lyrics_title">"Liedtexte Zwischenspeichern"</string>
+    <string name="cache_album_art_summary">"Zwischenspeichern aller angezeigten Albumcover von 1lyrics"</string>
+    <string name="highlight_offline_song_summary">"Liedtexte von Offline-Songs markieren (Neustart erforderlich)"</string>
+    <string name="cache_album_art_title">"Zwischenspeicher-Albumcover"</string>
+    <string name="highlight_offline_song_title">"Liedtexte hervorheben"</string>
+    <string name="no_lyrics">"Kein Text verfügbar! Spiele zuerst Musik oder verwende den Batch-Download."</string>
+    <string name="artist">"Künstler"</string>
+    <string name="song_title">"Songtitel"</string>
+    <string name="music_paused">"Musik pausiert"</string>
+    <string name="default_notification_content_text">"Lange drücken und primären Kanal zum Ausblenden deaktivieren"</string>
+    <string name="app_theme_summary">"Wähle ein App-Design"</string>
+    <string name="app_theme_title">"Themen"</string>
+    <string name="dark_mode_summary">"Aktiviere den dunklen Modus"</string>
+    <string name="dark_mode_title">"Dunkler Modus"</string>
+
+    <string name="app_settings_title">"App Einstellungen"</string>
+
+
+    <string name="lrc_label">"Liedtext-Label"</string>
+    <string name="drag_handle">"Ziehleiste"</string>
+
+    <string name="app_intro">"App-Einführung"</string>
+    <string name="app_intro_summary">"Gehe zu App-Einführung"</string>
+    <string name="welcome_to_one_lyrics">"Willkommen bei 1lyrics, einer schönen und minimalistischen App, mit der musikhören und anzeigen von zugehörigen Liedtexten ein einfaches Unterfangen wird."</string>
+    <string name="swipe_trigger_handle_instruction">"Wische den Auslöser nach links (Standard), um das Liedtextpanel anzuzeigen."</string>
+    <string name="swipe_trigger_handle">"Auslöser-Wischgeste"</string>
+    <string name="works_with_all_apps_instruction">"Funktioniert mit allen Musik-Playern wie Spotify, Google Play Musik, Amazon Music und Offline-Musik-Playern."</string>
+    <string name="works_with_all_apps">"Funktioniert universell"</string>
+    <string name="save_offline">"Offline speichern"</string>
+    <string name="save_offline_instruction">"Alle Liedtexte werden offline gespeichert, spart zukünftig Datenvolumen."</string>
+    <string name="overlay_lyrics">"Greifen Sie von überall auf Liedtexte zu "</string>
+    <string name="overlay_lyrics_instruction">"Wischen Sie den Auslöser von einer beliebigen Stelle, um den Liedtext im Overlay anzuzeigen."</string>
+    <string name="provide_all_permissions">"Bitte akzeptiere alle erforderlichen Berechtigungen."</string>
+    <string name="error_message">"Bitte akzeptiere die erforderlichen Berechtigungen."</string>
+    <string name="blur_panel">"Unschärfe-Liedtextpanel"</string>
+    <string name="blur_panel_summary">"Verwende verschwommenes Albumcover als Hintergrund"</string>
+    <string name="delete">"LÖSCHEN"</string>
+    <string name="edit">"BEARBEITEN"</string>
+    <string name="force_screen_on_summary">Force screen on when lyrics is displayed</string>
+    <string name="force_screen_on">Keep screen on</string>
+
+</resources>

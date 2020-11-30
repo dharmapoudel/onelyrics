@@ -1,0 +1,144 @@
+<resources>
+    <string name="menu_settings">Configuración</string>
+    <string name="menu_sort">Ordenar</string>
+    <string name="menu_support_develop">Apoya al desarrollo</string>
+    <string name="sort_reverse">Invertir</string>
+    <string name="app_start">Iniciar/Detener la aplicación</string>
+    <string name="app_start_summary">la aplicación se está ejecutando</string>
+    <string name="app_stop_summary">la aplicación está detenida</string>
+
+    <string name="thank_you">¡Gracias por tu apoyo!</string>
+    <string name="next_time">Aprecio tu esfuerzo. ¡La próxima vez, quizás!</string>
+
+    <string name="downloadingLyrics">Descargando</string>
+    <string name="lyricsDownloaded">Letras Descargadas</string>
+    <string name="noLyricsFound">No se ha encontrado ninguna letra</string>
+    <string name="default_notification_channel_id">1lyrics_Channel</string>
+    <string name="app_running">1lyrics se está ejecutando</string>
+
+
+    <string name="chooser_title">Escoge una aplicación</string>
+
+    <string name="noti_channel_first">Primario</string>
+    <string name="noti_channel_second">Secundario</string>
+
+
+    <string name="download">Descargar</string>
+    <string name="downloadHelp">Descargar letras para uso sin conexión</string>
+
+
+    <string name="add_lyrics">Añadir Letras</string>
+    <string name="refreshHelp">Actualizar la lista de letras</string>
+
+
+    <string name="source">Fuente</string>
+    <string name="sourceHelp">Ver el código fuente de esta aplicación</string>
+
+
+    <string name="about">Otras Aplicaciones</string>
+    <string name="aboutHelp">Echa un vistazo a mis otras aplicaciones</string>
+    <string name="lyricsHint">Tu letra aparecerá aquí</string>
+    <string name="updateTitle">Actualización disponible</string>
+    <string name="updateText">Haga clic aquí para actualizar</string>
+
+    <string name="draw_over_other_apps">SOBREPONERSE A OTRAS APLICACIONES</string>
+    <string name="read_write_storage">ALMACENAMIENTO DE LECTURA/ESCRITURA</string>
+    <string name="read_notification_access">ACCESO A LECTURA DE NOTIFICACINES</string>
+    <string name="permissions_toast">1lyrics - Por favor, conceda los permisos adecuados</string>
+    <string name="permissions_needed">Permisos necesarios</string>
+
+    <string name="download_prompt">Descargar letra para %1$s songs?</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="understood">Entendido</string>
+    <string name="please_wait">Por favor, espera…</string>
+    <string name="coming_soon">¡Próximamente!</string>
+    <string name="lyrics_downloaded_summary">Letras descargadas </string>
+    <string name="lyrics_downloaded">Haga clic aquí para ver las letras descargadas</string>
+    <string name="reading_offline"> Lectura sin conexión </string>
+
+    
+    <string name="trigger_settings_title">Ajustes de la cejilla</string>
+    <string name="trigger_pos_summary">La posición del área que detecta el deslizamiento</string>
+    <string name="trigger_pos_title">Posición de la cejilla</string>
+    <string name="trigger_offset_summary">Desplazamiento de la cejilla</string>
+    <string name="trigger_swipe_direction_summary">La dirección en la que se desliza para ver la letra</string>
+    <string name="trigger_swipe_direction_title">Dirección de deslizamiento</string>
+    <string name="trigger_width_summary">Ancho de la cejilla</string>
+    <string name="trigger_height_summary">Altura de la cejilla</string>
+    <string name="trigger_alpha_summary">Opacidad de la cejilla</string>
+    <string name="trigger_vibration_summary">Activar o desactivar la vibración en la detección de la cejilla</string>
+    <string name="trigger_vibration_title">Vibración</string>
+    <string name="lyrics_panel_settings_title">Configuración del panel de letras</string>
+    <string name="lyrics_panel_height_summary">Altura del panel de letras</string>
+    <string name="lyrics_panel_alpha_summary">Opacidad del panel de letras</string>
+    <string name="cache_settings_title">Almacenamiento en caché</string>
+    <string name="cache_lyrics_summary">Almacenar todas las letras mostradas por 1lyrics</string>
+    <string name="cache_lyrics_title">Almacenar las letras</string>
+    <string name="cache_album_art_summary">Almacenar todas las carátulas de álbum mostradas por 1lyrics</string>
+    <string name="highlight_offline_song_summary">Resaltar las letras de las canciones fuera de línea (es necesario reiniciar)</string>
+    <string name="cache_album_art_title">Caché de carátulas de álbumes</string>
+    <string name="highlight_offline_song_title">Resaltado de Letras</string>
+    <string name="no_lyrics">¡No hay letras disponibles todavía! Reproduce algo de música primero o usa la descarga por lotes</string>
+    <string name="artist">Artista</string>
+    <string name="song_title">Título de la canción</string>
+    <string name="music_paused">Musica detenida</string>
+    <string name="default_notification_content_text">Presiona prolongadamente y desactiva el canal primario para ocultar</string>
+    <string name="app_theme_summary">Seleccionar un tema para la aplicación</string>
+    <string name="app_theme_title">Temas</string>
+    <string name="dark_mode_summary">Activar el modo oscuro</string>
+    <string name="dark_mode_title">Modo Oscuro</string>
+
+    <string name="app_settings_title">Configuraciones de la Aplicación</string>
+
+
+    <string name="lrc_label">Etiqueta de la letra</string>
+    <string name="drag_handle">arrastrar pestaña</string>
+
+    <string name="app_intro">Introducción de la aplicación</string>
+    <string name="app_intro_summary">Ir a la pantalla de introducción de la aplicación</string>
+    <string name="welcome_to_one_lyrics">Bienvenido a 1lyrics, una hermosa y ligera aplicación para obtener al instante letras de alta calidad mientras escuchas música.</string>
+    <string name="swipe_trigger_handle_instruction">Deslice la cejilla hacia la izquierda (por defecto) para mostrar el panel de letras.</string>
+    <string name="swipe_trigger_handle">Deslice la cejilla</string>
+    <string name="works_with_all_apps_instruction">Funciona con todos los reproductores de música, incluidos Spotify, Google Play Music, Amazon Music y reproductores de música sin conexión.</string>
+    <string name="works_with_all_apps">Funciona con todos</string>
+    <string name="save_offline">Guardar fuera de línea</string>
+    <string name="save_offline_instruction">Todas las letras se almacenan sin conexión para el futuro, guardando los valiosos datos móviles.</string>
+    <string name="overlay_lyrics">Accede a las letras desde cualquier lugar </string>
+    <string name="overlay_lyrics_instruction">Deslice la cejilla desde cualquier lugar para mostrar las letras en la ventana de superposición.</string>
+    <string name="provide_all_permissions">Por favor, proporcione todos los permisos necesarios.</string>
+    <string name="error_message">Por favor, proporcione los permisos necesarios.</string>
+    <string name="blur_panel">Panel de desenfoque</string>
+    <string name="blur_panel_summary">UUsar carátulas de álbum borrosas como fondo de panel</string>
+    <string name="panel_head">Ocultar el encabezado del panel</string>
+    <string name="panel_head_summary">Ocultar el título de la canción del panel</string>
+    <string name="delete">ELIMINAR</string>
+    <string name="edit">EDITAR</string>
+
+    <string name="notice">Las letras de esta aplicación son proporcionadas por Chartlyrics, Ovhlyrics, etc. y esta aplicación funcionará mientras estos funcionen. A pesar de ser gratuitos, están protegidos por los derechos de autor de sus respectivos propietarios. Utilízala responsablemente, para que todos puedan disfrutar. Si te gusta, una reseña a la aplicación ayudará, si no, ¡reporta los errores!</string>
+    <string name="notice1">
+        <b>¿Cómo funciona esta aplicación?</b>\n<i>Abre la aplicación, concede todos los permisos necesarios, y reproduce la canción usando cualquier reproductor de música, si el reproductor de música es compatible y se encuentra la letra, la aplicación enviará una notificación (se puede hacer clic en ella) y mostrará una pestaña en el borde (se puede deslizar).</i>\n\n
+        <b>¿Las letras no están disponibles?</b>\n<i>No todas las canciones tendrán letra, ya que la aplicación es gratuita, utilizando los proveedores de letras disponibles gratuitamente como chartlyris, ovhlyrics, etc.</i>\n\n
+        <b>¿Las letras no son correctas?</b>\n<i>La aplicación simplemente envía una petición a los proveedores de letras usando el nombre del artista y el título de la canción y muestra las letras que recibe como respuesta.</i>\n\n
+        <b>¿No funciona con cierto reproductor?</b>\n<i>Todos los reproductores de música son compatibles siempre y cuando envíen los metadatos adecuados, si no funcionan no es culpa de 1lyrics, desafortunadamente no puedo hacer nada al respecto, contacta con el desarrollador de la aplicación y pídeles que sigan la práctica estándar y envíen los metadatos adecuados.</i>\n\n
+        <b>¿Mi idioma no es compatible?</b>\n<i>Las cadenas de aplicaciones están disponibles en el foro de xda, envíame las cadenas traducidas y las añadiré. También te daré crédito cuando construya la sección.</i>\n\n
+        <b>Quiero una opción para compartir</b>\n<i>Las letras tienen derechos de autor para los propietarios originales, así que no agregaré ninguna opción relacionada con compartir.</i>\n\n
+        <b>¿La aplicación no funciona?</b>\n<i>Primero, recuerda que la aplicación es gratuita y estoy trabajando incontables horas para traértela. Una crítica furiosa no ayudará. Por favor, informa con detalles (dispositivo, sistema operativo, artista, canción, reproductor de música, registro, etc.) para que pueda identificar el problema y trabajar en una solución.</i>\n\n
+        <b>¿Cómo enviar una solicitud de funciones?</b>\n<i>Envíame un correo electrónico, me encantará añadir características siempre y cuando coincidan con el tema simple y mínimo de la aplicación.</i>\n\n\n
+        <b>Estoy contento con la aplicación. ¿Cómo puedo ayudar?</b>\n<i>Puedes ayudar calificando la aplicación. Si aprecias mi trabajo, siempre puedes hacerme una donación en Paypal <b><font color="#f5148c46">dharmapoudel1@gmail.com</font></b>, esto tambien ayudará a mantener a la aplicación libre de anuncios </i>\n\n
+    </string>
+    <string name="faq_title">Frecuentes</string>
+    <string name="quick_faq"><b>Preguntas frecuentes rápidas</b></string>
+    <string name="translators"><b>Traducción</b></string>
+    <string name="translators_content">
+        <i>Italian - Giovanni Andreotti</i>\n
+        <i>German - pieceofphil</i>\n
+        <i>Romanian - Darius Mnere</i>\n
+        <i>Spanish - Agustín Mayorga</i>\n
+        <i>Portuguese - Victor Hugo</i>\n
+        <i>Vietnamese - Hàn Phong</i>\n
+    </string>
+    <string name="force_screen_on_summary">Force screen on when lyrics is displayed</string>
+    <string name="force_screen_on">Keep screen on</string>
+
+</resources>

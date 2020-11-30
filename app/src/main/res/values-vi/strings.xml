@@ -1,0 +1,149 @@
+<resources>
+    <string name="menu_settings">Cài đặt</string>
+    <string name="menu_sort">Xem theo</string>
+    <string name="menu_support_develop">Hỗ trợ nhà phát triển</string>
+    <string name="sort_reverse">Thứ tự Z-A</string>
+    <string name="app_start">Khởi động/Dừng ứng dụng</string>
+    <string name="app_start_summary">Ứng dụng đang chạy</string>
+    <string name="app_stop_summary">Ứng dụng đã dừng</string>
+
+    <string name="thank_you">Cảm ơn vì sự hỗ trợ của bạn!</string>
+    <string name="next_time">Tôi rất cảm kích với nỗ lực của bạn, nhưng có lẽ để lần sau vậy.</string>
+
+    <string name="downloadingLyrics">Đang tải về&#8230;</string>
+    <string name="lyricsDownloaded">Tải về thành công!</string>
+    <string name="noLyricsFound">Không tìm thấy lời bài nhạc!</string>
+    <string name="default_notification_channel_id">1lyrics_Kênh</string>
+    <string name="app_running">1lyrics đang chạy</string>
+
+
+    <string name="chooser_title">Chọn 1 ứng dụng</string>
+
+    <string name="noti_channel_first">Kênh chính</string>
+    <string name="noti_channel_second">Kênh phụ</string>
+
+
+    <string name="download">Tải về</string>
+    <string name="downloadHelp">Tải lời bài nhạc về để sử dụng offline</string>
+
+
+    <string name="add_lyrics">Thêm&#8230;</string>
+    <string name="refreshHelp">Làm mới danh sách lời bài nhạc</string>
+
+
+    <string name="source">Nguồn</string>
+    <string name="sourceHelp">Xem mã nguồn của ứng dụng này</string>
+
+
+    <string name="about">Các ứng dụng khác</string>
+    <string name="aboutHelp">Xem các ứng dụng khác của tôi</string>
+    <string name="lyricsHint">Lời bài nhạc của bạn sẽ xuất hiện ở đây </string>
+    <string name="updateTitle">Có bản cập nhật mới!</string>
+    <string name="updateText">Bấm vào đây để cập nhật</string>
+
+    <string name="draw_over_other_apps">PHỦ LÊN CÁC ỨNG DỤNG KHÁC</string>
+    <string name="read_write_storage">ĐỌC VÀ VIẾT LÊN BỘ NHỚ TRONG</string>
+    <string name="read_notification_access">QUYỀN TRUY CẬP ĐỂ ĐỌC THÔNG BÁO</string>
+    <string name="permissions_toast">1lyrics - Đề nghị bạn hãy cấp các quyền thích hợp</string>
+    <string name="permissions_needed">Có vẻ như 1 số quyền bị thiếu</string>
+
+    <string name="download_prompt">Tải lời bài nhạc về cho %1$s bài hát?</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="understood">Đã hiểu</string>
+    <string name="please_wait">Vui lòng chờ…</string>
+    <string name="coming_soon">Sẽ ra mắt sớm!</string>
+    <string name="lyrics_downloaded_summary">Tải về thành công! </string>
+    <string name="lyrics_downloaded">Bấm vào đây để xem lời bài nhạc đã tải về</string>
+    <string name="reading_offline"> Đang xem </string>
+
+    
+    <string name="trigger_settings_title">Cài đặt kích hoạt</string>
+    <string name="trigger_pos_summary">Vị trí của khu vực mà sẽ phát hiện cử chỉ vuốt</string>
+    <string name="trigger_pos_title">Vị trí kích hoạt</string>
+    <string name="trigger_offset_summary">Độ cao vị trí kích hoạt</string>
+    <string name="trigger_swipe_direction_summary">Hướng vuốt của ngón tay bạn để xem lời nhạc</string>
+    <string name="trigger_swipe_direction_title">Hướng vuốt</string>
+    <string name="trigger_width_summary">Chiều rộng vị trí kích hoạt</string>
+    <string name="trigger_height_summary">Chiều dài vị trí kích hoạt</string>
+    <string name="trigger_alpha_summary">Độ đậm vị trí kích hoạt</string>
+    <string name="trigger_vibration_summary">Rung khi phát hiện kích hoạt</string>
+    <string name="trigger_vibration_title">Rung</string>
+    <string name="lyrics_panel_settings_title">Cài đặt bảng lời bài nhạc</string>
+    <string name="lyrics_panel_height_summary">Chiều cao bảng lời bài nhạc</string>
+    <string name="lyrics_panel_alpha_summary">Độ đậm bảng lời bài nhạc</string>
+    <string name="cache_settings_title">Cache</string>
+    <string name="cache_lyrics_summary">Lưu mọi lời bài nhạc của 1lyrics ở dạng cache</string>
+    <string name="cache_lyrics_title">Cache lời nhạc</string>
+    <string name="cache_album_art_summary">Lưu mọi ảnh nền album nhạc của 1 lyrics ở dạng cache </string>
+    <string name="highlight_offline_song_summary">Nổi bật lời bài nhạc các bài hát offline (cần khỏi động lại ứng dụng) </string>
+    <string name="cache_album_art_title">Cache ảnh nền album nhạc</string>
+    <string name="highlight_offline_song_title">Nổi bật lời bài nhạc</string>
+    <string name="no_lyrics">Chưa có lời bài nhạc nào ở đây. Chơi 1 vài bài nhạc trước hoặc tải về</string>
+    <string name="artist">Nghệ sĩ</string>
+    <string name="song_title">Tên bài nhạc</string>
+    <string name="music_paused">Nhạc đã dừng</string>
+    <string name="default_notification_content_text">Bấm giữ và vô hiệu hóa kênh chính để ẩn</string>
+    <string name="app_theme_summary">Chọn chủ đề ứng dụng</string>
+    <string name="app_theme_title">Chủ đề</string>
+    <string name="dark_mode_summary">Bật chế độ tối</string>
+    <string name="dark_mode_title">Chế độ tối</string>
+
+    <string name="app_settings_title">Cài đặt ứng dụng</string>
+
+
+    <string name="lrc_label">Nhãn lời bài nhạc</string>
+    <string name="drag_handle">Khu vực kéo</string>
+
+    <string name="app_intro">Giới thiệu ứng dụng</string>
+    <string name="app_intro_summary">Đi đến phần giới thiệu úng dụng</string>
+    <string name="welcome_to_one_lyrics">Chào mừng tới 1lyrics, 1 ứng dụng nhẹ nhàng và đẹp mắt giúp tìm và hiển thị lời bài nhạc chất lượng cao trong khi đang nghe nhạc.</string>
+    <string name="swipe_trigger_handle_instruction">Vuốt sang trái khu vực kích hoạt (mặc định) để hiển thị bảng lời bài nhạc.</string>
+    <string name="swipe_trigger_handle">Vuốt khu vực kích hoạt</string>
+    <string name="works_with_all_apps_instruction">Hoạt động với mọi ứng dụng chơi nhạc như Spotify, Google Play Music, Amazon Music, và các ứng dụng chơi nhạc offline khác.</string>
+    <string name="works_with_all_apps">Hoạt động với tất cả</string>
+    <string name="save_offline">Lưu trữ offline</string>
+    <string name="save_offline_instruction">Mọi lời bài nhạc đều được lưu trữ offline nhằm tiết kiệm những dữ liệu quý giá.</string>
+    <string name="overlay_lyrics">Truy cập lời bài nhạc từ bất cứ đâu </string>
+    <string name="overlay_lyrics_instruction">Vuốt khu vực kích hoạt từ bất cứ đâu để hiển thị lời bài nhạc trên 1 lớp phủ màn hình.</string>
+    <string name="provide_all_permissions">Hãy cung cấp mọi quyền cần thiết.</string>
+    <string name="error_message">Please provide the required permissions.</string>
+    <string name="blur_panel">Làm mờ bảng lời bài nhạc</string>
+    <string name="blur_panel_summary">Sử dụng ảnh nền album được làm mờ để làm ảnh nền bảng lời bài nhạc</string>
+    <string name="panel_head">Ẩn tiêu đề bảng lời bài nhạc</string>
+    <string name="panel_head_summary">Ẩn tên bài nhạc trên bảng</string>
+    <string name="delete">XÓA</string>
+    <string name="edit">CHỈNH SỬA</string>
+
+    <string name="notice">Lời bài nhạc được cung cấp bởi Chartlyrics, Ovhlyrics, và ứng dụng này sẽ hoạt động miễn là chúng còn hoạt động. Dù miễn phí nhưng lời bài nhạc đã được xin bản quyền từ các tác giả. Sử dụng 1 cách có trách nhiệm, để mọi người có thể cùng tận hưởng. Nếu bạn thích ứng dụng này, hãy đánh giá hoặc báo lỗi!</string>
+    <string name="notice1">
+        <b>Những câu hỏi thường gặp:</b> \n<b>Ứng dụng này hoạt động như thế nào?</b>\n<i>Mở ứng dụng, cấp mọi quyền cần thiết, và chơi nhạc bằng bất kỳ ứng dụng khác, nếu ứng dụng đó được hỗ trợ và tìm được lời bài nhạc, ứng dụng sẽ gửi thông báo(có thể bấm vào) và sẽ hiện ra 1 vùng kích hoạt ở cạnh(có thể vuốt).</i>\n\n
+        <b>Không có lời bài nhạc?</b>\n<i>Không phải bài hát nào cũng có lời nhạc, bởi vì đây là 1 ứng dụng miễn phí và sử dụng lời bài nhạc được cung cấp miễn phí bởi chartlyris, ovhlyrics,....</i>\n\n
+        <b>Lời bài nhạc không đúng?</b>\n<i>Ứng dụng chỉ đơn thuần gửi yêu cầu tới các nhà cung cấp sử dụng tên nghệ sỹ, tên bài hát và hiển thị lời bài nhạc mà ứng dụng nhận được.</i>\n\n
+        <b>Không hoạt động với ứng dụng nào đó?</b>\n<i>Mọi ứng dụng chơi nhạc đều được hỗ trợ nếu chúng gửi siêu dữ liệu phù hơp, nếu chúng không động thì không phải là lỗi của 1lyrics, đáng tiếc là tôi không thể làm gì với trường hợp này, hãy liên hệ với nhà phát triển của ứng dụng đó và yêu cầu họ tuân theo tiêu chuẩn chung and gửi siêu dữ liệu phù hơp.</i>\n\n
+        <b>Ngôn ngữ của tôi không được hỗ trợ?</b>\n<i>Tôi đã đưa ra chuỗi ký tự của ứng dụng trên diễn đàn XDA, chỉ cần gửi tôi chuỗi đã được dịch và tôi sẽ thêm vào. Đồng thời tên của bạn sẽ được nhắc tới trong danh sách đóng góp khi tôi xây dựng phần này.</i>\n\n
+        <b>Tôi muốn chia sẻ lời nhạc của tôi?</b>\n<i>Mọi lời bài nhạc đều đã được đăng ký bản quyền bởi tác giả, nên tôi sẽ không thêm bất kỳ lời nhạc nào được chia sẻ.</i>\n\n
+        <b>Ứng dụng không hoạt động?</b>\n<i>Trước tiên, hãy nhớ rằng ứng dụng này là miễn phí và tôi đã làm việc 1 cách vất vả để có thể đem nó cho bạn. 1 đánh giá \'mặn\' sẽ không thể giúp gì. Hãy trình bày 1 cách chi tiết (thiết bị, hệ điều hành, tên nghệ sỹ, tên bài hát, ứng dụng chơi nhạc, logcat,...) để tôi có thể nắm rõ được vấn đề và tìm cách sửa lỗi.</i>\n\n
+        <b>Muốn thêm tính năng nào đó?</b>\n<i>Gửi cho tôi qua email, tôi rất muốn thêm tính năng miễn là chúng phù hợp với chủ đề đơn và tối giản của ứng dụng.</i>\n\n\n
+        <b>Tôi rất vui lòng với ứng dụng, vậy tôi có thể giúp như thế nào?</b>\n<i>Bạn có thể giúp tôi bằng cách đánh giá ứng dụng. Nếu bạn trân trọng với nỗ lực của tôi, bạn có thế giúp tôi qua Paypal. <b><font color="#f5148c46">dharmapoudel1@gmail.com</font></b>, và nó sẽ xóa hết quảng cáo trong ứng dụng. </i>\n\n
+    </string>
+
+    <string name="faq_title">FAQ</string>
+    <string name="quick_faq"><b>Những câu hỏi thường gặp</b></string>
+    <string name="translators"><b>Ngôn ngữ đã được dịch ra</b></string>
+    <string name="translators_content">
+        <i>Tiếng Ý - Giovanni Andreotti</i>\n
+        <i>Tiếng Đức - pieceofphil</i>\n
+        <i>Romanian - Darius Mnere</i>\n
+        <i>Spanish - Agustín Mayorga</i>\n
+        <i>Portuguese - Victor Hugo</i>\n
+        <i>Vietnamese - Hàn Phong</i>\n
+    </string>
+
+    <string name="exclude_youtube_summary">Do not fetch lyrics for Youtube</string>
+    <string name="exclude_youtube">Exclude Youtube</string>
+    <string name="faq_summary">Commonly asked questions, translators, etc.</string>
+    <string name="force_screen_on_summary">Force screen on when lyrics is displayed</string>
+    <string name="force_screen_on">Keep screen on</string>
+
+</resources>

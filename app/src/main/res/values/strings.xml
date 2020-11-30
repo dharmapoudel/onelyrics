@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">1lyrics</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_sort">Sort</string>
+    <string name="empty" translatable="false"> </string>
+
+    <string name="sort_reverse">Reverse</string>
+    <!-- <string name="app_start">Start/Stop app</string>
+    <string name="app_start_summary">app is running</string>
+    <string name="app_stop_summary">app is stopped</string>-->
+
+
+
+
+    <string name="downloadingLyrics">Downloading</string>
+    <!--<string name="lyricsDownloaded">Lyrics Downloaded</string>-->
+    <string name="noLyricsFound">No lyrics found</string>
+    <string name="fetchingLyrics">fetching lyrics</string>
+    <string name="app_running">1lyrics is running</string>
+
+
+    <string name="chooser_title">Choose an app</string>
+
+    <string name="noti_channel_first">Primary</string>
+    <string name="noti_channel_second">Secondary</string>
+
+
+    <string name="download">Download</string>
+    <!--<string name="downloadHelp">Download lyrics for offline usage</string>-->
+
+
+    <string name="add_lyrics">Add Lyrics</string>
+    <!--<string name="refreshHelp">Refresh the lyrics list</string>-->
+
+    <string name="search_lyrics">Search Lyrics</string>
+    <!--<string name="searchLyricsHelp">Search lyrics from the list</string>-->
+
+
+    <!--<string name="source">Source</string>
+    <string name="sourceHelp">View the source code for this app</string>-->
+
+
+    <!--<string name="about">Other Apps</string>
+    <string name="aboutHelp">Check out my other apps</string>
+    <string name="lyricsHint">Your lyrics will appear here</string>
+    <string name="updateTitle">Update available</string>
+    <string name="updateText">Click here to update</string>-->
+
+    <string name="draw_over_other_apps">DRAW OVER OTHER APPS</string>
+    <string name="read_write_storage">READ / WRITE STORAGE</string>
+    <string name="read_notification_access">READ NOTIFICATION ACCESS</string>
+    <!--<string name="permissions_toast">1lyrics - Please grant the proper permissions</string>
+    <string name="permissions_needed">Permissions Needed</string>-->
+
+    <plurals name="downloadPrompt">
+        <item quantity="one">Download lyrics for %s song?</item>
+        <item quantity="other">Download lyrics for %s songs?</item>
+    </plurals>
+
+    <!--<string name="download_prompt">Download lyrics for %1$s songs?</string>-->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="close">X</string>
+    <string name="understood">Understood</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="coming_soon">Coming soon!</string>
+    <!--<string name="lyrics_downloaded_summary">Lyrics downloaded </string>-->
+    <string name="lyrics_downloaded">Click here to see downloaded lyrics</string>
+    <string name="reading_offline">Reading offline</string>
+
+    
+    <string name="trigger_settings_title">Trigger Settings</string>
+    <string name="trigger_pos_summary">The position of the area which detects the swipe</string>
+    <string name="trigger_pos_title">Trigger Position</string>
+    <string name="trigger_offset_summary">Trigger Offset</string>
+    <!--<string name="trigger_swipe_direction_summary">The direction in which you swipe to see the lyrics</string>-->
+    <string name="trigger_swipe_direction_title">Swipe Direction</string>
+    <string name="trigger_width_summary">Trigger Width</string>
+    <string name="trigger_height_summary">Trigger Height</string>
+    <string name="trigger_alpha_summary">Trigger Alpha</string>
+    <string name="trigger_vibration_summary">Enable or disable vibration on trigger detection</string>
+    <string name="trigger_vibration_title">Vibration</string>
+    <string name="lyrics_panel_settings_title">Lyrics Panel Settings</string>
+    <string name="lyrics_panel_height_summary">Lyrics Panel Height</string>
+    <string name="lyrics_panel_alpha_summary">Lyrics Panel Alpha</string>
+    <string name="cache_settings_title">Caching</string>
+    <string name="cache_lyrics_summary">Cache all lyrics shown by 1lyrics</string>
+    <string name="cache_lyrics_title">Cache lyrics</string>
+    <string name="cache_album_art_summary">Cache all album arts shown by 1lyrics</string>
+    <string name="highlight_offline_song_summary">Highlight lyrics of offline songs (needs restart)</string>
+    <string name="cache_album_art_title">Cache album art</string>
+    <string name="highlight_offline_song_title">Highlight Lyrics</string>
+    <string name="no_lyrics">No lyrics available yet! Play some music first or use batch download.</string>
+    <string name="artist">Artist</string>
+    <string name="song_title">Song Title</string>
+    <string name="music_paused">Music paused</string>
+    <string name="default_notification_content_text">Long press and disable primary channel to hide</string>
+    <string name="app_theme_summary">Select app themes</string>
+    <string name="app_theme_title">Themes</string>
+    <string name="dark_mode_summary">Enable dark mode</string>
+    <string name="dark_mode_title">Dark Mode</string>
+
+    <string name="app_settings_title">App Settings</string>
+
+
+    <string name="lrc_label">Lyrics Label</string>
+    <string name="drag_handle">drag handle</string>
+
+    <string name="app_intro">App Intro</string>
+    <string name="app_intro_summary">Go to app intro screen</string>
+    <string name="welcome_to_one_lyrics">Welcome to 1lyrics, a beautiful and lightweight app to instantly fetch top quality lyrics while listening to music.</string>
+    <string name="swipe_trigger_handle_instruction">Swipe the trigger handle to the left (default) to reveal the lyrics panel.</string>
+    <string name="swipe_trigger_handle">Swipe Trigger Handle</string>
+    <string name="works_with_all_apps_instruction">Works with all music players including Spotify, Google Play Music, Amazon Music, and offline music players.</string>
+    <string name="works_with_all_apps">Works with all</string>
+    <string name="save_offline">Save Offline</string>
+    <string name="save_offline_instruction">All lyrics are stored offline for future, saving the precious data.</string>
+    <string name="overlay_lyrics">Access Lyrics from Anywhere </string>
+    <string name="overlay_lyrics_instruction">Swipe the trigger handle from anywhere to display lyrics on overlay window.</string>
+    <string name="provide_all_permissions">Please provide all required permissions.</string>
+    <string name="error_message">Please provide the required permissions.</string>
+    <string name="blur_panel">Blur Panel</string>
+    <string name="blur_panel_summary">Use blurred album art as panel background</string>
+
+    <string name="delete">DELETE</string>
+    <string name="edit">EDIT</string>
+
+
+    <string name="notice">Lyrics on this app are provided by Chartlyrics, Ovhlyrics, etc. and this app will work as long as they work. Though free they are copyrighted to their respected owners. Use it responsibly, so that everyone can enjoy. If you like it, review will help, else report bugs!</string>
+    <string name="notice1">
+        <b>How does this app work?</b>\n<i>Open the app, grant all permissions needed, and play song using any music player, if music player is supported and lyrics is found, app will send a notification(can be clicked) and show a tab on edge(can be swiped).</i>\n\n
+        <b>Lyrics is not available?</b>\n<i>Not all songs will have lyrics, reason being app is free, using the freely available lyrics providers like chartlyris, ovhlyrics, etc.</i>\n\n
+        <b>Lyrics are not correct?</b>\n<i>App merely sends request to lyrics providers using artist name and song title and displays the lyrics it gets as response.</i>\n\n
+        <b>Not working with xyz player?</b>\n<i>All music players are supported as long as they send proper metadata, if they don\'t work it\'s not 1lyrics fault, unfortunately I can\'t do anything about it, contact the developer of the app and ask them to follow standard practice and send proper metadata.</i>\n\n
+        <b>My language is not supported?</b>\n<i>App strings are available on xda forum, send me the translated strings and I\'ll add them. Also I\'ll credit you when I build about section.</i>\n\n
+        <b>I want share option?</b>\n<i>Lyrics are copyrighted to original owners, so I won\'t add any share related options.</i>\n\n
+        <b>App just doesn\'t work?</b>\n<i>First, remember the app is free and I\'m working countless hours to bring it to you. A salty review won\'t help. Please report with details (device, os, artist, song, music player, logcat, etc) so that I can pinpoint the issue and work on a fix.</i>\n\n
+        <b>How to send some feature request?</b>\n<i>Send me an email, I\'ll love to add features as long as they match the apps simple and minimal theme.</i>\n\n\n
+        <b>I\'m happy with the app, How can I help?</b>\n<i>You can help by rating the app. If you appreciate my work, you can always donate me on Paypal <b><font color="#f5148c46">dharmapoudel1@gmail.com</font></b>, this will also help keep app ads free. </i>\n\n
+    </string>
+    <string name="faq_title">FAQ</string>
+    <string name="quick_faq"><b>Quick FAQ</b></string>
+    <string name="translators"><b>Translation</b></string>
+    <string name="translators_content">
+        <i>Italian - Giovanni Andreotti</i>\n
+        <i>German - pieceofphil</i>\n
+        <i>Romanian - Darius Mnere</i>\n
+        <i>Spanish - Agustín Mayorga</i>\n
+        <i>Portuguese - Victor Hugo</i>\n
+        <i>Vietnamese - Hàn Phong</i>\n
+    </string>
+
+
+    <string name="menu_support_develop">Support development</string>
+    <string name="exclude_youtube_summary">Do not fetch lyrics for Youtube</string>
+    <string name="exclude_youtube">Exclude Youtube</string>
+    <string name="thank_you">Thank you for supporting!</string>
+    <string name="next_time">Appreciate your effort. Next time perhaps!</string>
+    <string name="default_notification_channel_id">1lyrics_Channel</string>
+    <string name="panel_head">Hide Panel Head</string>
+    <string name="panel_head_summary">Hide song title from the panel</string>
+    <string name="faq_summary">Commonly asked questions, translators, etc.</string>
+
+    <string name="exclude_apps_description">Select apps to exclude</string>
+    <string name="exclude_apps">Exclude Apps</string>
+    <string name="ok">OK</string>
+    <string name="donate_only">This option is added as a thank you to users who have donated.</string>
+    <string name="force_screen_on_summary">Force screen on when lyrics is displayed</string>
+    <string name="force_screen_on">Keep screen on</string>
+    <string name="close_on_back_press_summary">Might require app force close</string>
+    <string name="close_on_back_press">Close panel on back, home or recent</string>
+    <string name="auto_close_panel_summary">Operate lyrics panel automatically with music</string>
+    <string name="auto_close_panel">Auto open/close lyrics panel</string>
+
+
+</resources>
