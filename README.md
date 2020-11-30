@@ -1,7 +1,7 @@
 # 1lyrics
 
 1lyrics is one app for all your lyrics need. Get lyrics instantly with sleek new material designed interface.  Singing along or reading lyrics offline,  1Lyrics got you covered.
-It is inspired from Lyrically(https://github.com/shkcodes/Lyrically) but takes giant forward leaps in design, form, usability, content, quality, performance and everything.  1lyrics is planned to be developer friendly approach where you can just submit api for lyrics of your language. Also it will be open source once the code base is stable.
+It is inspired from [Lyrically](https://github.com/shkcodes/Lyrically) but takes giant forward leaps in design, form, usability, content, quality, performance and everything.  1lyrics is planned to be developer friendly approach where you can just submit api for lyrics of your language. Also it will be open source once the code base is stable.
 
 
 # Screenshots :
